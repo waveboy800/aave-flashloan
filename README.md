@@ -43,12 +43,15 @@ npx hardhat run --network goerli scripts/deployFlashLoanArbitrage.js
 
 ## Add liquidity to Dex.sol:
 USDC 1500
+
 DAI  1500
 
 ## Approve:
 USDC 1000000000
+
 DAI  1200000000000000000000
 
 ## Request Loan - USDC (6 decimal):
 0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43,1000000000 // 1,000 USDC
+
 0xA2025B15a1757311bfD68cb14eaeFCc237AF5b43,1000000   // 1 USDC
