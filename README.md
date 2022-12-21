@@ -23,16 +23,16 @@ import {ILendingPool} from "https://github.com/aave/protocol-v2/blob/master/cont
 import {ILendingPoolAddressesProvider} from "https://github.com/aave/protocol-v2/blob/master/contracts/interfaces/ILendingPoolAddressesProvider.sol";
 import {IERC20} from "https://github.com/aave/protocol-v2/blob/master/contracts/dependencies/openzeppelin/contracts/IERC20.sol";
 
-npx hardhat run --network goerli scripts/deployFlashLoan.js
-npx hardhat run --network goerli scripts/deployFlashLoanArbitrage.js
-npx hardhat run --network goerli scripts/deployDex.js
 ## Dex.sol deployed (Goerli): 
+npx hardhat run --network goerli scripts/deployDex.js
 0xD6e8c479B6B62d8Ce985C0f686D39e96af9424df
 
-## FlashLoan deployed
+## FlashLoan deployed  
+npx hardhat run --network goerli scripts/deployFlashLoan.js
 0x438949474510066964C635a20aACF3b085d11e02
 
 ## FlashLoanArbitrage deployed
+npx hardhat run --network goerli scripts/deployFlashLoanArbitrage.js
 0xbF023C124aC10DA2Da2759D58bd26858f69B7094
 
 ## DEX.sol deployed
